@@ -15,3 +15,7 @@
 # **
  
 notebooks/explore_data.ipynb
+notebooks/transform_data.ipynb
+notebooks/infer_RFHLTH.ipynb
+notebooks/make_synthetic_data.ipynb
+notebooks/optimise_model.ipynb
