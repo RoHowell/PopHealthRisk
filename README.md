@@ -51,12 +51,12 @@ Simulate deployment through a batch inference pipeline.
 ## 📊 Results
 
 |**Metric** | **Value** |
-|----------|--------|
-|AUC (ROC)	| 0.732 |
-|Accuracy	| 0.733 |
-|Precision	| 0.727 |
-|Recall	| 0.725 |
-|F1 | 0.726 |
+|----------|-----------|
+|AUC (ROC)	| 0.809     |
+|Accuracy	| 0.733     |
+|Precision	| 0.727     |
+|Recall	| 0.725     |
+|F1 | 0.726     |
 
 🩺 Interpretation:
 While the model performance is moderate (AUC 0.73), it demonstrates the feasibility of large-scale risk modeling in a distributed environment. Although noisy on an individual level, it could still be useful to inform risk at population scales. 
