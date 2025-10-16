@@ -26,14 +26,14 @@ Simulate deployment through a batch inference pipeline.
 
 ## ⚙️ Technical Stack
 
-| **Component** | **Technology**                                     | **Purpose** |
-|----------------|----------------------------------------------------|--------------|
-| Compute Environment | Databricks Community Edition                       | Cloud-based Spark cluster for distributed computation |
-| Data Processing | PySpark                                            | Large-scale data cleaning, transformation, and feature engineering |
+| **Component** | **Technology**                                      | **Purpose** |
+|----------------|-----------------------------------------------------|--------------|
+| Compute Environment | Databricks Community Edition                        | Cloud-based Spark cluster for distributed computation |
+| Data Processing | PySpark                                             | Large-scale data cleaning, transformation, and feature engineering |
 | Machine Learning | Spark MLlib (Random Forest, Gradient Boosted Trees) | Risk prediction modeling |
-| Experiment Tracking | MLflow                                             | Model versioning, metric tracking, and experiment management |
-| Visualization | Seaborn                                            | Exploratory data analysis and model insight visualization |
-| Deployment Simulation | MLflow Model Loading               | Batch scoring workflow and simulated production pipeline |
+| Experiment Tracking | MLflow                                              | Model versioning, metric tracking, and experiment management |
+| Visualization | Seaborn, Matplotlib                                 | Exploratory data analysis and model insight visualization |
+| Deployment Simulation | MLflow Model Loading                                | Batch scoring workflow and simulated production pipeline |
 
 ## 📂 Notebooks
 
@@ -61,7 +61,7 @@ Simulate deployment through a batch inference pipeline.
 🩺 Interpretation:
 While the model performance is moderate (AUC 0.73), it demonstrates the feasibility of large-scale risk modeling in a distributed environment. Although noisy on an individual level, it could still be useful to inform risk at population scales. 
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
 Expand feature set with spatiotemporal data to take into account seasonality.
 
@@ -69,7 +69,7 @@ Integrate with BI dashboards (Power BI / Tableau) for operational deployment.
 
 Apply model explainability tools (SHAP or LIME for Spark).
 
-🧩 Key Learnings
+## 🧩 Key Learnings
 
 Practical experience with Spark optimization and and MLflow tracking.
 
