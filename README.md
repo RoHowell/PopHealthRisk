@@ -62,6 +62,9 @@ Simulate deployment through a batch inference pipeline.
 🩺 Interpretation:
 While the model performance is moderate (AUC 0.81), it demonstrates the feasibility of large-scale risk modeling in a distributed environment. Although noisy on an individual level, it could still be useful to inform risk at population scales. 
 
+⚠️ Warning: 
+It is very likely that this model will have learnt biases that reflect the impact of intersectional disadvantage on minority groups. Before it was implemented in a production context, it would need to be examined through this lens and adjustments may be needed to ensure it meets ethical standards. 
+
 ## 🚀 Future Improvements
 
 Expand feature set with spatiotemporal data to take into account seasonality.
