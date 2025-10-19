@@ -49,17 +49,18 @@ Simulate deployment through a batch inference pipeline.
 - `convert_census.ipynb` (Local notebook) Convert US census poverty data to csv. 
 
 ## 📊 Results
+![ROC curve](plots/ROC.png)
 
 |**Metric** | **Value** |
 |----------|-----------|
-|AUC (ROC)	| 0.809     |
-|Accuracy	| 0.733     |
-|Precision	| 0.727     |
-|Recall	| 0.725     |
-|F1 | 0.726     |
+|AUC (ROC)	| 0.814     |
+|Accuracy	| 0.735     |
+|Precision	| 0.726     |
+|Recall	| 0.732     |
+|F1 | 0.729     |
 
 🩺 Interpretation:
-While the model performance is moderate (AUC 0.73), it demonstrates the feasibility of large-scale risk modeling in a distributed environment. Although noisy on an individual level, it could still be useful to inform risk at population scales. 
+While the model performance is moderate (AUC 0.81), it demonstrates the feasibility of large-scale risk modeling in a distributed environment. Although noisy on an individual level, it could still be useful to inform risk at population scales. 
 
 ## 🚀 Future Improvements
 
@@ -71,11 +72,11 @@ Apply model explainability tools (SHAP or LIME for Spark).
 
 ## 🧩 Key Learnings
 
-Practical experience with Spark optimization and and MLflow tracking.
+Practical experience with Spark optimization and and MLflow tracking - training models on data sets with 100,000s data points.
 
 Learned how to design scalable ML pipelines for production-like environments.
 
-Gained familiarity with databrick and the Unity catalogue. 
+Gained familiarity with databricks and the Unity catalogue. 
 
 Generated synthetic data with SDV.
 
